@@ -12,3 +12,19 @@ myAverage = myAverage / myGrades.length;
 
 console.log("My grade average is " + myAverage);
 
+// code that rejects input
+// made a true and false if else, returns false because the number is not within 0-100
+function myNumber(num) {
+    if (typeof num !== 'num') {
+        return false;
+    }
+    if (num >= 0 && num <= 100) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+console.log (myNumber(-5));
+
+// 
